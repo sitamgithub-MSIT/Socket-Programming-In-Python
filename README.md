@@ -42,10 +42,9 @@ At this point, we need something that a server can communicate with. To confirm 
 
 
 ## Author
-
 - Sitam Meur
-  [sitammeur@gmail.com], 
-  Feel free to mail me for any queries. 
+ [sitammeur@gmail.com], 
+ Feel free to mail me for any queries. 
 
 ## Contributions 
   
