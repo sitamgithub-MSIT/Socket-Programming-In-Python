@@ -6,20 +6,22 @@ import threading
 
 
 HEADER = 60
-FORMAT = 'utf-8'        ## KIND OF BYTES.
+FORMAT = 'utf-8'        ## UTF stands for "Unicode Transformation Format," and the number "8" indicates that the encoding uses 8-bit data. 
+                        ## It is among the most effective and practical encoding formats available.A Unicode string is converted to bytes via utf-8.
 
 # Reserving a port in the Computer
-PORT = 5050         ## Port for Socket or Port to listen on 
+PORT = 5050         ## Port for Socket or Port to listen on. 
 
 DISCONNECT_MESSAGE = 'Disconnected !!!'
 
 
-SERVER = socket.gethostbyname(socket.gethostname())
-#print(socket.gethostname())
-#print(SERVER)
+SERVER = socket.gethostbyname(socket.gethostname())         ## The gethostbyname() function of socket module returns the IP address of a given host name. 
+                                                            ## The returned address is an IPv4 address.
+'''print(socket.gethostname())
+print(SERVER)'''
 
 
-Address = (SERVER,PORT)         ## Here is the Address for the Socket 
+Address = (SERVER,PORT)         ## Here is the Address for the Socket. 
 
 
 '''Here we made a socket instance and passed it two parameters. The first parameter is AF_INET and the second one is SOCK_STREAM. 
@@ -51,7 +53,7 @@ def handle_client(conn,addr):
         
 # Function to Start 
 def start():
-    server.listen()         ## Puttting the socket into listening mode
+    server.listen()         ## Puttting the socket into listening mode.
     print(f"[SERVER] server is listening on {SERVER}")      ## Send the listening message. 
     
     # A forever loop until we interrupt it or
@@ -66,4 +68,3 @@ def start():
 
 print("[SERVER] server is starting !!!")
 start()
-
