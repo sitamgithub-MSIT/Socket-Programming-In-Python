@@ -1,5 +1,5 @@
 # Programming in Python
-# Import the socket library first
+# Import the socket library
 
 import socket
 
