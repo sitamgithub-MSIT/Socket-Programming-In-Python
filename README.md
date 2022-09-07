@@ -33,6 +33,7 @@ At this point, we need something that a server can communicate with. To confirm 
 
  - [Python Socket Network Programming](https://yasoob.me/2013/08/06/python-socket-network-programming/)
  - [NETWORK PROGRAMMING - SERVER & CLIENT : BASICS](https://www.bogotobogo.com/python/python_network_programming_server_client.php)
+ - [socket — Low-level networking interface](https://docs.python.org/3/library/socket.html)
 
 ## Tech Stack
 
