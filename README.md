@@ -1,4 +1,4 @@
-# Socket Programming in Python 
+# Socket Programming in Pytho
 
 Using socket programming, two nodes on a network can connect and communicate with one another. The other socket (node) reaches out to the first socket to establish a connection while the first socket listens on a certain port at an IP. While the client reaches out to the server, the server creates the listener socket.
 
