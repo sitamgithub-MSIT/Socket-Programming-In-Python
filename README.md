@@ -49,4 +49,4 @@ At this point, we need something that a server can communicate with. To confirm 
 
 ## Contributions 
   
-  Issues and Pull requests are most welcome
+  Issues and Pull requests are most welcome. 
