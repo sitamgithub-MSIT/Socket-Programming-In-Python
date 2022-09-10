@@ -39,7 +39,7 @@ At this point, we need something that a server can communicate with. To confirm 
 
 **Client:** Python, Socket Library
 
-**Server:** Python, Socket Librar
+**Server:** Python, Socket Library
 
 
 ## Author
