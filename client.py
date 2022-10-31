@@ -1,7 +1,7 @@
 # Programming in Python
 # Import the socket library
 
-import socket
+import socke
 
 PORT = 5050         ## The port used by the server.
 HEADER = 60
