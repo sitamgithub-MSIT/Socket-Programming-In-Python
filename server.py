@@ -1,4 +1,4 @@
-# Programming in Pytho
+# Programming in Python
 # First of all import the socket library
 
 import socket
