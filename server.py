@@ -5,7 +5,7 @@ import socket
 import threading
 
 
-HEADER = 60
+HEADER = 6
 FORMAT = 'utf-8'        ## UTF stands for "Unicode Transformation Format," and the number "8" indicates that the encoding uses 8-bit data. 
                         ## It is among the most effective and practical encoding formats available.A Unicode string is converted to bytes via utf-8.
 
