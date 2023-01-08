@@ -4,7 +4,7 @@ Using socket programming, two nodes on a network can connect and communicate wit
 
 Importing the socket library and creating a basic socket are the first steps in socket programming.
 
-# A simple server-client progra
+# A simple server-client program
 
 Here, two parameters were supplied to a socket instance that was created. AF INET is the first parameter, while SOCK STREAM is the second. AF_INET stands for ipv4 address-family. The connection-oriented TCP protocol is referred to as SOCK_STREAM.
 Now that we have this socket, we can connect to a server.
